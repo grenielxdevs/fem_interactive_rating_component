@@ -137,6 +137,10 @@ body {
     display: none;
 }
 
+.card-result .card-top {
+    color: var(--white);
+}
+
 
 .attribution { 
     font-size: 11px; 
