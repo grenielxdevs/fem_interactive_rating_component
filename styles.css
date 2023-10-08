@@ -133,7 +133,7 @@ body {
     background-color: var(--orange);
 }
 
-.card-rate {
+.card-result {
     display: none;
 }
 
@@ -142,7 +142,7 @@ body {
 }
 
 .card.card-result .card-top p {
-    margin: 40px auto;
+    margin: 30px auto;
     padding: 5px 10px;
     max-width: 250px;
     width: 100%;
