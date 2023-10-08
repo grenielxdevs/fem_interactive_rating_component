@@ -38,7 +38,7 @@ body {
     padding: 30px;
 }
 
-.card .card-content span {
+.card .card-top p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,14 +133,30 @@ body {
     background-color: var(--orange);
 }
 
-.card-result {
+.card-rate {
     display: none;
 }
 
-.card-result .card-top {
-    color: var(--white);
+.card.card-result .card-top {
+    text-align: center;
 }
 
+.card.card-result .card-top p {
+    margin: 40px auto;
+    padding: 5px 10px;
+    max-width: 250px;
+    width: 100%;
+    color: var(--light-orange);
+}
+
+.card.card-result h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card.card-result p {
+    text-align: center;
+}
 
 .attribution { 
     font-size: 11px; 
