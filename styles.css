@@ -22,6 +22,7 @@ body {
     background-color: var(--very-dark-lue);
 }
 
+/* Container Styles */
 .container {
     display: flex;
     justify-content: center;
@@ -30,6 +31,8 @@ body {
     padding: 0 20px;
 }
 
+
+/* Card Styles */
 .card {
     max-width: 370px;
     background: linear-gradient(hsl(213, 19%, 18%) -30%, hsl(216, 12%, 6%) 170%);
@@ -49,6 +52,8 @@ body {
     border-radius: 50px;
 }
 
+
+/* Card Rating Styles */
 .card .card-content h2 {
     font-size: 26px;
     font-weight: 700;
@@ -102,7 +107,6 @@ body {
     color: var(--white);
     transition: all 0.1s ease-in;
     cursor: pointer;
-    
 }
 
 .card .card-ratings label .checkmark:hover {
@@ -133,6 +137,7 @@ body {
     background-color: var(--orange);
 }
 
+/* Show and Hide */
 .hide {
     display: none;
 }
@@ -141,6 +146,7 @@ body {
     display: block;
 }
 
+/* Card Result Styles */
 .card.card-result .card-top {
     text-align: center;
 }
@@ -173,7 +179,6 @@ body {
     color: red;
     text-align: left;
 }
-
 
 /* Footer Styles */
 .attribution { 
